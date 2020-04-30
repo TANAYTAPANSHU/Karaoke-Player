@@ -1,0 +1,29 @@
+li {
+    display: block;
+    float: right;
+    text-decoration: none;
+}
+
+#channel {
+    border: 12px outset darkgoldenrod;
+    border-radius: 20%;
+}
+
+.btn-group {
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 10%;
+    border: 12px outset rgba(61, 56, 56, 0.562);
+}
+
+.card {
+    background-color: black;
+    margin-left: 38%;
+    margin-top: 5%;
+    border-radius: 10%;
+    border: 12px outset goldenrod;
+}
+
+#c1 {
+    margin-left: 13%;
+}

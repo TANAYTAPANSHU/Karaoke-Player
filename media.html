@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tanay's Media Player</title>
+    <link rel="shortcut icon" type="image/x-icon" href="dragon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body style="background: black;">
+
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <h4 style="color: rgb(235, 185, 22);">Connect with me!! </h4>
+                <span style='font-size:100px;'>&#128526;</span>
+                <ul style="float: right;">
+                    <li>
+                        <a href="https://www.linkedin.com/in/tanay-tapanshu-a128a8179/"> <img src="link.png"></a>
+                    </li>
+                    <li>" "</li>
+                    <li>
+                        <a href="https://www.facebook.com/tanay.tapanshu"> <img src="fbb.png"></a>
+                    </li>
+                    <li>" "</li>
+                    <li>
+                        <a href="https://www.instagram.com/tanay_tapanshu/"><img src="insta.jfif"></a>
+                    </li>
+
+                </ul>
+                <span class="text-muted"></span>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <h1 style="margin: auto;color:darkgoldenrod;"><i>Tanay's Karaoke Media Player.</i></h1>
+        </nav>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid" style="background: rgba(36, 34, 34, 0.692);">
+        <div class="container">
+            <h1 class="display-4" style="color: darkgoldenrod;">Hey fams!! Enjoy the &#128165🎤 Karaoke with me.
+            </h1>
+            <p class="lead" style="color: darkgoldenrod;">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+    <div class="embed-responsive embed-responsive-21by9" id="channel">
+        <video controls autoplay id="vid">
+        <source src="on&on.mp4" type="video/mp4">
+     
+          </video>
+    </div>
+
+
+
+
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-warning" id="rewind"><h3>⏮</h3></button>
+        <button type="button" class="btn btn-warning" id="play"><h3>&#9205;</h3></button>
+        <button type="button" class="btn btn-warning" id="playnext"><h3>⏭</h3></button>
+        <button type="button" class="btn btn-warning" id="increase"><h3>+</h3></button>
+        <button type="button" class="btn btn-warning" id="mute"><h3>&#128263;</h3></button>
+        <button type="button" class="btn btn-warning" id="decrease"><h3>-</h3></button>
+    </div>
+
+
+    <div class="row">
+        <div class="col" id="c1">
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="on&on.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: goldenrod;">On & On</h5>
+                    <p class="card-text" style="color: honeydew;">Cartoon<br>2015
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                <div class="card-header">Playlist</div>
+                <div class="card-body">
+                    <h5 class="card-title">Songs</h5>
+                    <p class="card-text">▶On & On<br>▶Cheap thrills <br>▶Closer<br>▶Jab Tak <br>▶Namo Namo Ji Shankara <br>▶Shape of You<br>▶Something Just like this <br> <br></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="media.js"></script>
+    <script src="medialist.js"></script>
+</body>
+
+
+
+
+</html>
