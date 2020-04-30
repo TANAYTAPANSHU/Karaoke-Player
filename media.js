@@ -48,7 +48,7 @@ pla.addEventListener("click", () => {
 
     } else {
         video.pause();
-        pla.innerHTML = "<h3>&#9205;</h3>";
+        pla.innerHTML = "<h3>&#9658;</h3>";
 
     }
 
